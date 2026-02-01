@@ -125,10 +125,6 @@ const ProjectsSection = () => {
                       </a>
                     )}
                   </div>
-
-
-No file chosenNo file chosen
-
                 </div>
 
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
