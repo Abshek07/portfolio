@@ -17,6 +17,8 @@ const projects = [
     tags: ["Healthcare", "System Design", "UI/UX"],
     image: mediconnectImg,
     color: "from-primary to-accent",
+    github: "https://github.com/Abshek07/mediconnect",
+    demo: "https://mediconnect-health-hub-eight.vercel.app/",
   },
   {
     title: "Digital Mental Health System",
