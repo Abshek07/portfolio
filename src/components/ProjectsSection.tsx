@@ -27,6 +27,8 @@ const projects = [
     tags: ["Mental Health", "Privacy", "Accessibility"],
     image: mentalHealthImg,
     color: "from-accent to-secondary",
+    github: "https://github.com/Abshek07/mediconnect-health-hub",
+    demo: "https://mental-health.vercel.app",
   },
   {
     title: "Sentiment Analysis ML Model",
@@ -35,6 +37,8 @@ const projects = [
     tags: ["Python", "Scikit-learn", "NLP"],
     image: sentimentImg,
     color: "from-secondary to-primary",
+    github: "https://github.com/Abshek07/mediconnect-health-hub",
+    demo: "https://Sentiment Analysis ML Model.vercel.app",
   },
   {
     title: "Blood Management System",
@@ -43,6 +47,8 @@ const projects = [
     tags: ["Web Dev", "Database", "Healthcare"],
     image: bloodManagementImg,
     color: "from-primary to-neon-blue",
+    github: "https://github.com/Abshek07/mediconnect-health-hub",
+    demo: "https://Blood Management.vercel.app",
   },
 ];
 
