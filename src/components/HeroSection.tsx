@@ -139,7 +139,7 @@ const HeroSection = () => {
                 <img
                   src={profileImage}
                   alt="Abhishekagouda Patil"
-                  className="w-56 h-56 object-contain mx-auto"
+                  className="w-56 h-56 object-cover object-center"
 "
                 />
               </div>
