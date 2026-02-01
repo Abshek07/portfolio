@@ -6,14 +6,6 @@ const Footer = () => {
     <footer className="py-8 border-t border-border/50">
       <div className="section-container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            className="text-muted-foreground text-sm flex items-center gap-1"
-          >
-            Made with <Heart className="w-4 h-4 text-destructive inline" /> by
-            <span className="text-primary font-medium">Abhishekagouda Patil</span>
-          </motion.p>
 
           <div className="flex items-center gap-4">
             <a
