@@ -101,7 +101,7 @@ const ProjectsSection = () => {
                   <h3 className="font-display font-semibold text-xl group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
-                  <div className="flex gap-2"
+                  <div className="flex gap-2">
                     {project.github && (
                       <a
                         href={project.github}
