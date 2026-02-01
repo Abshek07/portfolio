@@ -139,7 +139,7 @@ const HeroSection = () => {
                 <img
                   src={profileImage}
                   alt="Abhishekagouda Patil"
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover object-center rounded-full"
                 />
               </div>
             </div>
