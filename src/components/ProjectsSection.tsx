@@ -101,22 +101,34 @@ const ProjectsSection = () => {
                   <h3 className="font-display font-semibold text-xl group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
-                  <div className="flex gap-2">
-                    <Button
-                      size="icon"
-                      variant="ghost"
-                      className="w-9 h-9 text-muted-foreground hover:text-primary"
-                    >
-                      <Github size={18} />
-                    </Button>
-                    <Button
-                      size="icon"
-                      variant="ghost"
-                      className="w-9 h-9 text-muted-foreground hover:text-primary"
-                    >
-                      <ExternalLink size={18} />
-                    </Button>
+                  <div className="flex gap-2"
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button size="icon" variant="ghost">
+                          <Github size={18} />
+                        </Button>
+                      </a>
+                    )}
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button size="icon" variant="ghost">
+                          <ExternalLink size={18} />
+                        </Button>
+                      </a>
+                    )}
                   </div>
+
+
+No file chosenNo file chosen
+
                 </div>
 
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
