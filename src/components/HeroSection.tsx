@@ -135,11 +135,11 @@ const HeroSection = () => {
             className="flex-shrink-0"
           >
             <div className="profile-glow">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/30">
+              <div className="w-52 h-52 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/30">
                 <img
                   src={profileImage}
                   alt="Abhishekagouda Patil"
-                  className="w-56 h-56 object-cover object-center"
+                  className="w-full h-full object-contain"
 "
                 />
               </div>
