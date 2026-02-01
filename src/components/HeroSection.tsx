@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { Github, Linkedin, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profileImage from "@/assets/profile.jpg";
+import profileImage from "@/assets/profile photo abhi.jpeg";
+
 
 const HeroSection = () => {
   return (
