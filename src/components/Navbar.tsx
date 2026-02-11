@@ -30,8 +30,11 @@ const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "glass-card py-3" : "py-6"
+        isScrolled
+          ? "bg-background/90 backdrop-blur-lg shadow-md py-3"
+          : "bg-background/70 backdrop-blur-md py-6"
       }`}
+
     >
       <div className="section-container">
         <div className="flex items-center justify-between">
