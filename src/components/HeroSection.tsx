@@ -66,6 +66,25 @@ const HeroSection = () => {
                 className="text-accent"
               />
             </motion.div>
+            
+                        {/* Profile Image */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="flex justify-center my-6"
+            >
+              <div className="profile-glow">
+                <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-primary/30">
+                  <img
+                    src={profileImage}
+                    alt="Abhishekagouda Patil"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </motion.div>
+
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -125,24 +144,6 @@ const HeroSection = () => {
                 <Github size={20} />
               </a>
             </motion.div>
-          </motion.div>
-
-          {/* Right Content - Profile Image */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex-shrink-0"
-          >
-            <div className="profile-glow">
-              <div className="w-52 h-52 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/30">
-                <img
-                  src={profileImage}
-                  alt="Abhishekagouda Patil"
-                  className="w-52 h-72 md:w-64 md:h-80 rounded-xl overflow-hidden"
-                />
-              </div>
-            </div>
           </motion.div>
         </div>
 
